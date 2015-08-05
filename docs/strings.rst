@@ -12,7 +12,7 @@ Strings are nothing but simple text. In Python we declare strings in between "" 
     'I am Indian'
     >>> s = 'I am Indian'
     >>> s = "Here is a line \
-    ... splitted in two lines"
+    ... split in two lines"
     >>> s
     'Here is a line split in two lines'
     >>> s = "Here is a line \n split in two lines"
@@ -20,7 +20,7 @@ Strings are nothing but simple text. In Python we declare strings in between "" 
     'Here is a line \n split in two lines'
     >>> print(s)
     Here is a line
-    split in two lines
+     split in two lines
 
 Now if you want to multiline strings you have to use triple single/double quotes.
 
@@ -157,7 +157,7 @@ Stings have some methods which will help you in finding text/substring in a stri
     -1
     >>> s.startswith("fa") #To check if the string startswith fa or not
     True
-    >>> s.endswith("reason") #
+    >>> s.endswith("reason") #To check if the string endswith reason or not
     True
 
 *find()* helps to find the first occurrence of the substring given, if not found it returns -1.
